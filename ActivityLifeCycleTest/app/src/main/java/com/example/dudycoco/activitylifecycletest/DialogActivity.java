@@ -1,13 +1,13 @@
-package com.example.dudycoco.activitytest;
+package com.example.dudycoco.activitylifecycletest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ThirdActivity extends BaseActivity {
+public class DialogActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.third_layout);
+        setContentView(R.layout.dialog_layout);
     }
 }
